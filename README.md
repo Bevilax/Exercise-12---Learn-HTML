@@ -3,23 +3,22 @@
 	<head>
 		<title>4Geeks Academy</title>
 	</head>
+	<style>
+		body,
+		table {
+			border: 1 solid black;
+			align-items: left;
+		}
+	</style>
 	<body>
-		<style>
-			table {
-				width: 100%;
-				border: 1 solid black;
-			}
-			th {
-				background-color: red;
-				height: 40;
-			}
-		</style>
-		<table>
-			<tr>
-				<th>Name</th>
-				<th>Last Name</th>
-				<th>Phone Number</th>
-			</tr>
+		<table width="100%" border="1">
+			<thead>
+				<tr backgroundcolor="red">
+					<td height="40">Name</td>
+					<td height="40">Last Name</td>
+					<td height="40">Phone Number</td>
+				</tr>
+			</thead>
 			<tr>
 				<td>Justin</td>
 				<td>Priveto</td>
