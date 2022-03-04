@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>4Geeks Academy</title>
-	</head>
-	<style>
-		body,
-		table {
-			border: 1 solid black;
-			align-items: left;
-		}
-	</style>
-	<body>
-		<table width="100%" border="1">
-			<thead>
-				<tr backgroundcolor="red">
-					<td height="40">Name</td>
-					<td height="40">Last Name</td>
-					<td height="40">Phone Number</td>
-				</tr>
-			</thead>
+	<table width="100%" border="1">
+		<thead height="40" style="background-color: red" align="left">
+			<tr>
+				<th>Name</th>
+				<th>Last Name</th>
+				<th>Phone Number</th>
+			</tr>
+		</thead>
+		<tbody>
 			<tr>
 				<td>Justin</td>
 				<td>Priveto</td>
@@ -34,6 +24,6 @@
 				<td>Mc Dinzk</td>
 				<td>+(234)455-3434</td>
 			</tr>
-		</table>
-	</body>
+		</tbody>
+	</table>
 </html>
